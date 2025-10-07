@@ -62,80 +62,89 @@
     <a name="circuit" val="cir_d"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(100,120)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="C"/>
-    </comp>
-    <comp lib="0" loc="(100,60)" name="Pin">
+    <comp lib="0" loc="(100,190)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="A"/>
     </comp>
-    <comp lib="0" loc="(100,90)" name="Pin">
+    <comp lib="0" loc="(100,220)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="0" loc="(440,60)" name="Pin">
+    <comp lib="0" loc="(100,250)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="C"/>
+    </comp>
+    <comp lib="0" loc="(440,190)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="X"/>
       <a name="type" val="output"/>
     </comp>
-    <comp lib="0" loc="(440,90)" name="Pin">
+    <comp lib="0" loc="(440,220)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="Y"/>
       <a name="type" val="output"/>
     </comp>
-    <comp lib="1" loc="(320,180)" name="Odd Parity">
+    <comp lib="1" loc="(320,310)" name="Odd Parity">
       <a name="inputs" val="3"/>
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(320,230)" name="AND Gate">
+    <comp lib="1" loc="(320,360)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(320,280)" name="AND Gate">
+    <comp lib="1" loc="(320,410)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(320,330)" name="AND Gate">
+    <comp lib="1" loc="(320,460)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(390,280)" name="OR Gate">
+    <comp lib="1" loc="(390,410)" name="OR Gate">
       <a name="inputs" val="3"/>
       <a name="size" val="30"/>
     </comp>
-    <wire from="(100,120)" to="(130,120)"/>
-    <wire from="(100,60)" to="(110,60)"/>
-    <wire from="(100,90)" to="(120,90)"/>
-    <wire from="(110,170)" to="(110,220)"/>
-    <wire from="(110,170)" to="(290,170)"/>
-    <wire from="(110,220)" to="(110,320)"/>
-    <wire from="(110,220)" to="(290,220)"/>
-    <wire from="(110,320)" to="(290,320)"/>
-    <wire from="(110,60)" to="(110,170)"/>
-    <wire from="(120,180)" to="(120,240)"/>
-    <wire from="(120,180)" to="(290,180)"/>
-    <wire from="(120,240)" to="(120,270)"/>
-    <wire from="(120,240)" to="(290,240)"/>
-    <wire from="(120,270)" to="(290,270)"/>
-    <wire from="(120,90)" to="(120,180)"/>
-    <wire from="(130,120)" to="(130,190)"/>
-    <wire from="(130,190)" to="(130,290)"/>
-    <wire from="(130,190)" to="(290,190)"/>
-    <wire from="(130,290)" to="(130,340)"/>
-    <wire from="(130,290)" to="(290,290)"/>
-    <wire from="(130,340)" to="(290,340)"/>
-    <wire from="(320,180)" to="(410,180)"/>
-    <wire from="(320,230)" to="(340,230)"/>
-    <wire from="(320,280)" to="(360,280)"/>
-    <wire from="(320,330)" to="(340,330)"/>
-    <wire from="(340,230)" to="(340,270)"/>
-    <wire from="(340,270)" to="(360,270)"/>
-    <wire from="(340,290)" to="(340,330)"/>
-    <wire from="(340,290)" to="(360,290)"/>
-    <wire from="(390,280)" to="(420,280)"/>
-    <wire from="(410,60)" to="(410,180)"/>
-    <wire from="(410,60)" to="(440,60)"/>
-    <wire from="(420,90)" to="(420,280)"/>
-    <wire from="(420,90)" to="(440,90)"/>
+    <comp lib="8" loc="(124,126)" name="Text">
+      <a name="text" val="x = A ⊕ B ⊕ C"/>
+    </comp>
+    <comp lib="8" loc="(160,544)" name="Text">
+      <a name="text" val="projeto &gt; analisar circuito"/>
+    </comp>
+    <comp lib="8" loc="(94,520)" name="Text">
+      <a name="text" val="ver tabela:"/>
+    </comp>
+    <wire from="(100,190)" to="(110,190)"/>
+    <wire from="(100,220)" to="(120,220)"/>
+    <wire from="(100,250)" to="(130,250)"/>
+    <wire from="(110,190)" to="(110,300)"/>
+    <wire from="(110,300)" to="(110,350)"/>
+    <wire from="(110,300)" to="(290,300)"/>
+    <wire from="(110,350)" to="(110,450)"/>
+    <wire from="(110,350)" to="(290,350)"/>
+    <wire from="(110,450)" to="(290,450)"/>
+    <wire from="(120,220)" to="(120,310)"/>
+    <wire from="(120,310)" to="(120,370)"/>
+    <wire from="(120,310)" to="(290,310)"/>
+    <wire from="(120,370)" to="(120,400)"/>
+    <wire from="(120,370)" to="(290,370)"/>
+    <wire from="(120,400)" to="(290,400)"/>
+    <wire from="(130,250)" to="(130,320)"/>
+    <wire from="(130,320)" to="(130,420)"/>
+    <wire from="(130,320)" to="(290,320)"/>
+    <wire from="(130,420)" to="(130,470)"/>
+    <wire from="(130,420)" to="(290,420)"/>
+    <wire from="(130,470)" to="(290,470)"/>
+    <wire from="(320,310)" to="(410,310)"/>
+    <wire from="(320,360)" to="(340,360)"/>
+    <wire from="(320,410)" to="(360,410)"/>
+    <wire from="(320,460)" to="(340,460)"/>
+    <wire from="(340,360)" to="(340,400)"/>
+    <wire from="(340,400)" to="(360,400)"/>
+    <wire from="(340,420)" to="(340,460)"/>
+    <wire from="(340,420)" to="(360,420)"/>
+    <wire from="(390,410)" to="(420,410)"/>
+    <wire from="(410,190)" to="(410,310)"/>
+    <wire from="(410,190)" to="(440,190)"/>
+    <wire from="(420,220)" to="(420,410)"/>
+    <wire from="(420,220)" to="(440,220)"/>
   </circuit>
 </project>

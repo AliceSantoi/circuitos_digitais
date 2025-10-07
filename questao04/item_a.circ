@@ -102,6 +102,14 @@
       <a name="inputs" val="4"/>
       <a name="size" val="30"/>
     </comp>
+    <comp lib="8" loc="(168,431)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="projeto &gt; analisar circuito &gt; tabela"/>
+    </comp>
+    <comp lib="8" loc="(184,456)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="projeto &gt; analisar circuito &gt; minimizada"/>
+    </comp>
     <wire from="(100,120)" to="(130,120)"/>
     <wire from="(100,150)" to="(140,150)"/>
     <wire from="(100,60)" to="(110,60)"/>

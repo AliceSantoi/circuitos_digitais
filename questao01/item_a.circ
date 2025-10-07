@@ -61,49 +61,58 @@
     <a name="circuit" val="item_a"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(300,40)" name="Pin">
+    <comp lib="0" loc="(330,180)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="S"/>
       <a name="type" val="output"/>
     </comp>
-    <comp lib="0" loc="(40,130)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="label" val="C"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(40,30)" name="Pin">
+    <comp lib="0" loc="(70,170)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="A"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="0" loc="(40,80)" name="Pin">
+    <comp lib="0" loc="(70,220)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="B"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="1" loc="(140,20)" name="NOT Gate">
+    <comp lib="0" loc="(70,270)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="C"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(170,160)" name="NOT Gate">
       <a name="size" val="20"/>
     </comp>
-    <comp lib="1" loc="(210,30)" name="AND Gate">
+    <comp lib="1" loc="(240,170)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(280,40)" name="OR Gate">
+    <comp lib="1" loc="(310,180)" name="OR Gate">
       <a name="size" val="30"/>
     </comp>
-    <wire from="(100,60)" to="(100,130)"/>
-    <wire from="(100,60)" to="(230,60)"/>
-    <wire from="(140,20)" to="(180,20)"/>
-    <wire from="(210,30)" to="(250,30)"/>
-    <wire from="(230,50)" to="(230,60)"/>
-    <wire from="(230,50)" to="(250,50)"/>
-    <wire from="(280,40)" to="(300,40)"/>
-    <wire from="(40,130)" to="(100,130)"/>
-    <wire from="(40,30)" to="(60,30)"/>
-    <wire from="(40,80)" to="(80,80)"/>
-    <wire from="(60,20)" to="(120,20)"/>
-    <wire from="(60,20)" to="(60,30)"/>
-    <wire from="(80,40)" to="(180,40)"/>
-    <wire from="(80,40)" to="(80,80)"/>
+    <comp lib="8" loc="(151,369)" name="Text">
+      <a name="text" val="projeto &gt; analisar circuito"/>
+    </comp>
+    <comp lib="8" loc="(85,345)" name="Text">
+      <a name="text" val="ver tabela:"/>
+    </comp>
+    <comp lib="8" loc="(95,109)" name="Text">
+      <a name="text" val=" x = ~AB + C"/>
+    </comp>
+    <wire from="(110,180)" to="(110,220)"/>
+    <wire from="(110,180)" to="(210,180)"/>
+    <wire from="(130,200)" to="(130,270)"/>
+    <wire from="(130,200)" to="(260,200)"/>
+    <wire from="(170,160)" to="(210,160)"/>
+    <wire from="(240,170)" to="(280,170)"/>
+    <wire from="(260,190)" to="(260,200)"/>
+    <wire from="(260,190)" to="(280,190)"/>
+    <wire from="(310,180)" to="(330,180)"/>
+    <wire from="(70,170)" to="(90,170)"/>
+    <wire from="(70,220)" to="(110,220)"/>
+    <wire from="(70,270)" to="(130,270)"/>
+    <wire from="(90,160)" to="(150,160)"/>
+    <wire from="(90,160)" to="(90,170)"/>
   </circuit>
 </project>
